@@ -10,12 +10,12 @@ VHJ1ZQ== True
 console.log("BR's FindAns has been loaded!");
 
 var answers = [];
-for (var i = 1; i < 60; ++i) {
+for (var i = 1; i < 61; ++i) {
   answers[i] = document.getElementById(`correct_${i}`).value;
 }
 console.log(answers);
 
-for (var i = 1; i < 60; ++i) {
+for (var i = 1; i < 61; ++i) {
   var ans = answers[i];
   if (ans == "YQ==") var selector = 1;
   else if (ans == "Yg==") var selector = 2;
